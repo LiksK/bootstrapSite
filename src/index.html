@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./my.css">
+    <title>Document</title>
+</head>
+<body class="bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom border-secondary py-2">
+    <div class="container">
+        <button class="navbar-toggler" id="navMenuBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse flex-grow-1 order-last order-lg-first" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#" >Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#" >Профпробы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#" >Партнеры.Экскурсии</a>
+                </li>
+            </ul>
+        </div>
+        
+        <a class="navbar-brand d-none d-lg-block text-light" href="#">Личный кабинет
+          <img src="./img/navLogo.png" class="ms-2" height="30" alt="">
+        </a>
+        <a class="navbar-brand d-block d-lg-none text-light" href="#">Личный кабинет
+          <img src="./img/navLogo.png" class="ms-2" height="30" alt="">
+        </a>
+    </div>
+  </nav>
+  <ul id="menu" class="flex decoration-none">
+    <!-- <li>Главная</li>
+    <li>Профпробы</li>
+    <li>Партнеры.Экскурсии</li> -->
+</ul>
+  <main>
+    <div class="container">
+        <div class="text-with-logo">
+            <p class="text">Профессиональные пробы 
+                <span>
+                    <img src="./img/array.svg" class="arrays" alt="">
+                </span>
+            </p>
+        </div>
+        <div class="mainEl">
+            <div class="mainEl__text">
+                <h2>Один из этапов профориентации в рамках проекта «Мастерство начинается здесь» </h2>
+                <p>Проба представляет собой полуторачасовой мастер-класс, моделирующий элементы реальной профессиональной деятельности под руководством наставника из колледжа</p>
+                <p>Проба поможет попробовать себя в разных профессиях и отраслях, а также своими глазами увидеть как и где проходит обучение по этому направлению</p>
+                <img src="./img/arrayFour.svg" alt="">
+            </div>
+            <img src="./img/mainImg.png" class="mainImg" alt="">
+        </div>
+
+        <div class="mainEl1">
+            <img src="./img/mainImg2.png" class="mainImg" alt="">
+            <div class="mainEl__text">
+                <h2>Один из этапов профориентации в рамках проекта «Мастерство начинается здесь» </h2>
+                <p>Проба представляет собой полуторачасовой мастер-класс, моделирующий элементы реальной профессиональной деятельности под руководством наставника из колледжа</p>
+                <p>Проба поможет попробовать себя в разных профессиях и отраслях, а также своими глазами увидеть как и где проходит обучение по этому направлению</p>
+                <img src="./img/arrayFour.svg"  alt="">
+            </div>
+            
+        </div>
+
+        <div class="secondMainTextEl">
+            <h1>Не упустите шанс сделать первый шаг к своей мечте и открыть для себя мир профессиональных возможностей!</h1>
+            <div class="mainFlex">
+                <div class="elMainText">
+                    <img src="./img/Img-3.png" alt="">
+                    <div class="flexForTextMain">
+                        <em class="text-accent">3</em><p>Профпробы <br> для каждого</p>
+                    </div>
+                </div>
+
+                <div class="elMainText">
+                    <img src="./img/Img-2.png" alt="">
+                    <div class="flexForTextMain">
+                        <em class="text-accent">10</em><p> Отраслей</p>
+                    </div>
+                </div>
+
+                <div class="elMainText">
+                    <img src="./img/Img-1.png" alt="">
+                    <div class="flexForTextMain">
+                        <em class="text-accent">48</em><p> Колледжей</p>
+                    </div>
+                </div>
+
+                <div class="elMainText">
+                    <img src="./img/Img.png" alt="">
+                    <div class="flexForTextMain">
+                        <em class="text-accent">170</em><p> Профессий</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainBox">
+            <div class="boxEl">
+                <p>Отрасль</p>
+                <select name="" id="">
+                    <option value="">Пример отрасли 1</option>
+                    <option value="">Пример отрасли 2</option>
+                    <option value="" selected>Все отрасли</option>
+                </select>
+            </div>
+            <div class="boxEl">
+                <p>Профессию/специальность</p>
+                <select name="" id="">
+                    <option value="">Пример професси 1</option>
+                    <option value="">Пример професси 2</option>
+                    <option value="" selected>Профессия</option>
+                </select>
+            </div>
+            <div class="boxEl">
+                <p>Колледж</p>
+                <select name="" id="">
+                    <option value="">Пример колледжа 1</option>
+                    <option value="">Пример колледжа 2</option>
+                    <option value="">ГБПОУ "Колледж полиции"</option>
+                </select>
+            </div>
+            <div class="boxEl">
+                <p>Месяц проведения</p>
+                <select name="" id="">
+                    <option value="" selected>Cентябрь</option>
+                    <option value="">октябрь</option>
+                    <option value="">ноябрь</option>
+                    <option value="">декабрь</option>
+                    <option value="">январь</option>
+                    <option value="">февраль</option>
+                    <option value="">март</option>
+                    <option value="">апрель</option>
+                    <option value="">май</option>
+                    <option value="">июнь</option>
+                    <option value="">июлб</option>
+                    <option value="">август</option>
+                </select>
+            </div>
+            <div class="boxEl">
+                <p>День проведения</p>
+                <select name="" id="">
+                    
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="" selected>21</option>
+                </select>
+            </div>
+            <div class="boxEl">
+                <p>Округ</p>
+                <select name="" id="">
+                    <option value="">ЮАО</option>
+                    <option value="">ЗАО</option>
+                    <option value="">ЮЗАО</option>
+                    <option value=""  selected>Округ</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="probs container flex-column">
+        <div class="probsMenu">
+            <div class="probsEl mt-4 mb-4">
+                <h3>Наименование профессиональной пробы</h3>
+                <div>
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3 class=" ">Наименование профессиональной пробы</h3>
+                <div class="">
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button class="">Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3>Наименование профессиональной пробы</h3>
+                <div>
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3 class=" ">Наименование профессиональной пробы</h3>
+                <div class="">
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button class="">Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3>Наименование профессиональной пробы</h3>
+                <div>
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3 class=" ">Наименование профессиональной пробы</h3>
+                <div class="">
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button class="">Подробнее</button>
+            </div>
+            <div class="probsEl mt-4 mb-4">
+                <h3>Наименование профессиональной пробы</h3>
+                <div>
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3 class=" ">Наименование профессиональной пробы</h3>
+                <div class="">
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button class="">Подробнее</button>
+            </div>
+            <div class="probsEl mt-4 mb-4">
+                <h3>Наименование профессиональной пробы</h3>
+                <div>
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="probsEl mt-4 mb-4">
+                <h3 class=" ">Наименование профессиональной пробы</h3>
+                <div class="">
+                    <span><img src="./img/propsLogos/icon.png" alt="">Безопасность</span>
+                    <span><img src="./img/propsLogos/icon1.png" alt="">ГБПОУ “Колледж полиции”</span>
+                    <span><img src="./img/propsLogos/icon2.png" alt="">г. Москва, улица Генерала Белова, д. 6</span>
+                    <span><img src="./img/propsLogos/icon3.png" alt="">Количество свободных мест: 28 из 50</span>
+                </div>
+                <button class="">Подробнее</button>
+            </div>
+        </div>
+        <div class="probsEl__button m-3">
+            <button id="btnPage1">1</button>
+            <button id="btnPage2">2</button>
+            <button id="btnPage3">3</button>
+            <button id="btnPage4">4</button>
+            <button id="btnPage5">5</button>
+        </div>
+    </div>
+</main>
+
+<footer class=" border-top border-secondary">
+    <div class="container py-4">
+        <div>
+            <img src="./img/logoFooter.png" alt="">
+            <p>Masterstvo@mcrpo.ru</p>
+            <div class="social">
+                <button><img src="./img/footerLogos/Rutube.png" alt=""></button>
+                <button><img src="./img/footerLogos/Telegram.png" alt=""></button>
+                <button><img src="./img/footerLogos/Vk.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
+
